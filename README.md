@@ -100,7 +100,7 @@ Here’s what stood out the most in-demand skills for the top-paying data analys
 - 📊 **Tableau** remains a key visualization tool, appearing in **6 listings** among high-salary positions.  
 - 💡 Other valuable skills like **R**, **Snowflake**, **Pandas**, and **Excel** also show consistent demand across top roles.
 
-![Top Paying Skills](assets/2_top_paying_roles_skills.png)  
+![Top Paying Skills](top_paying_roles_skills.png)  
 *Bar chart visualizing the frequency of skills among the top 10 highest-paying data analyst roles (generated from my SQL query results).*
 
 ### 3. In-Demand Skills for Data Analysts
