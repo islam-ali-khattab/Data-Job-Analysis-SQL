@@ -53,7 +53,7 @@ WHERE
 ORDER BY
     salary_year_avg DESC
 LIMIT 10;
-
+```
 Here’s what stood out from the top data analyst jobs in 2023:
 
 - 💰 **Wide Salary Range:** The top 10 highest-paying data analyst roles range from **$184K to $650K**, highlighting the strong earning potential within the field.  
@@ -94,6 +94,8 @@ INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC;
+```
+
 Here’s what stood out the most in-demand skills for the top-paying data analyst roles in 2023:
 
 - 🧠 **SQL** dominates the list, appearing in **8 out of 10** of the top-paying job postings.  
@@ -123,6 +125,7 @@ GROUP BY
 ORDER BY
     demand_count DESC
 LIMIT 5;
+```
 
 Here’s the breakdown of the most in-demand skills for data analysts in 2023:
 
@@ -159,6 +162,8 @@ GROUP BY
 ORDER BY
     avg_salary DESC
 LIMIT 25;
+```
+
 Here’s the breakdown of the top-paying skills for data analysts in 2023:
 
 - 🚀 **Big Data & Machine Learning Expertise:** Analysts proficient in technologies like **PySpark**, **Couchbase**, and machine learning tools such as **DataRobot** and **Jupyter** command the highest salaries, reflecting the industry's strong emphasis on large-scale data processing and predictive analytics.  
@@ -205,6 +210,7 @@ ORDER BY
     avg_salary DESC,
     demand_count DESC
 LIMIT 25;
+```
 
 | **Skill ID** | **Skill**    | **Demand Count** | **Average Salary ($)** |
 |--------------|--------------|-----------------:|-----------------------:|
